@@ -19,7 +19,7 @@ print("""\033[1;35m
 ─╚╝─╚══╝╚╝╚══╝╚══╝""")
 
 
-i=input("ENTRE TEXT : ")
+i=input("\033[1;36mENTRE TEXT : ")
 
 
 x="en"
