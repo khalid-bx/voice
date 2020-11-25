@@ -17,11 +17,11 @@ print("""\033[1;35m
 ║╚╝║║╔╗║─╣║╔═╝║║═╣
 ╚╗╔╝║╚╝║║║║╚═╗║║═╣
 ─╚╝─╚══╝╚╝╚══╝╚══╝""")
-print('')
-print('[0] exit')
+
+
 i=input("ENTRE TEXT : ")
-if i=='0':
-    os.system('exit')
+
+
 x="en"
 xo=gTTS(text=i,lang=x,slow=False)
 xo.save("/sdcard/moro.mp3")
