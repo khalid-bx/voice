@@ -17,13 +17,14 @@ print("""\033[1;35m
 ║╚╝║║╔╗║─╣║╔═╝║║═╣
 ╚╗╔╝║╚╝║║║║╚═╗║║═╣
 ─╚╝─╚══╝╚╝╚══╝╚══╝""")
-
-
 i=input("\033[1;36mENTRE TEXT : ")
-
-
 x="en"
 xo=gTTS(text=i,lang=x,slow=False)
 xo.save("/sdcard/moro.mp3")
 jalan('\033[1;33mThe text has been converted into an audio clip')
 os.system('cd /sdcard ; termux-open moro.mp3')
+
+
+
+
+
