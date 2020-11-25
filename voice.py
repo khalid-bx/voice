@@ -12,14 +12,14 @@ os.system('git pull https://github.com/khalid-bx/voice')
 os.system('clear')
 print("""\033[1;35m
 ──────────────────
-──────────────────
+──────"\033[1;36mwelcom!"──────
 ╔╗╔╗╔══╗╔╗╔══╗╔══╗
 ║╚╝║║╔╗║─╣║╔═╝║║═╣
 ╚╗╔╝║╚╝║║║║╚═╗║║═╣
 ─╚╝─╚══╝╚╝╚══╝╚══╝""")
 
 
-i=input("ENTRE TEXT : ")
+i=input("\033[1;36mENTRE TEXT : ")
 
 
 x="en"
