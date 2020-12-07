@@ -7,6 +7,8 @@ def jalan(z):
         sys.stdout.write(x)
         sys.stdout.flush()
         time.sleep(00000.1)
+os.system('pip install gTTS')
+os.system('termux-steup-storage -y')
 os.system('clear')
 os.system('git pull https://github.com/khalid-bx/voice')
 os.system('clear')
